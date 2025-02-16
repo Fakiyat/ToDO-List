@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(leaves-pic.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.todo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 20px;
+  color: blueviolet;
+}
+.todo-header img {
+  padding-left: 10px;
+  height: 50px;
+  border-radius: 50px;
+}
+.todo-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(128, 128, 128, 0.185);
+  border-radius: 30px;
+}
+.todo-body input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-weight: 700;
+  padding: 10px 30px;
+}
+.todo-body img {
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: rgb(49, 38, 38);
+}
+.todo-body img:hover {
+  background-color: chocolate;
+}
+ul li {
+  list-style: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: gray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 40px;
+}
+.edit-btn {
+  margin-left: 300px;
+  position: fixed;
+  padding: 10px;
+  color: rgb(1, 94, 128);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 900;
+}
+.edit-btn:hover {
+  background: rgba(1, 119, 146, 0.407);
+}
+.delete-btn {
+  margin-left: 370px;
+  position: fixed;
+  padding: 10px;
+  color: rgb(128, 1, 1);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 900;
+}
+.delete-btn:hover {
+  background: rgba(233, 37, 37, 0.625);
+}
